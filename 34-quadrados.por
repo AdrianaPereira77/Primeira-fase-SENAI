@@ -10,6 +10,7 @@ programa {
  quadrado2 = numero2* numero2
  total = quadrado1 + quadrado2
  escreva("Soma dos quadrados:" + total)
+ escreva("acabou")
   }
 }
 
