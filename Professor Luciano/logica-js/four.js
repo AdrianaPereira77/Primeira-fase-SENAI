@@ -60,5 +60,65 @@
 //     console.log("frutas: ", frutas[i])
 // }
 
+//_________________________
+
+// for (let i = 1; i <= 100; i++){
+//     console.log("Número com for:", i);
+// }
+
+//________________________
+
+// let i = 0;
+
+// do {
+//     console.log(i);i++;
+//     }while(i <=99) 
+
+//________________________
+
+// let dia = "Sexta"
+// switch (dia) {
+// case "Segunda":
+//     console.log("Segundou");
+//     break;
+//     case "Sexta":
+//         console.log("Sextou");
+//         break;
+//         default:
+//         console.log("Opção Inválida");
+//         break
+
+// }
+
+//______________________________
+
+// let dia = 2
+// switch (dia) {
+// case 1:
+//     console.log("Segundou");
+//     break;
+// case 2:
+//         console.log("Terçou");
+//         break;
+//         default:
+//         console.log("Opção Inválida");
+//         break
+
+// }
+
+
+//Faça um programa que calcule o quadrado de cada número de 1-10:
+
+// for (i = 1; i<=10; i++){
+//     console
+// }
+
+
+//imprima a tabuada do 5
+
+let i  = 5 ( i<= 10  i ++)   
+
+
+
 
 
