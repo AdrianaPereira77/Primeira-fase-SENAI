@@ -1,0 +1,26 @@
+/* #container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} */
+
+
+
+button {
+    background-color: rgb(138, 133, 133);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+
+#btCadastrar{
+    color: blueviolet;
+}
+
+*
+{
+font-family: Verdana, Geneva, Tahoma, sans-serif;   
+background-color: antiquewhite;
+color: rgb(46, 44, 44);
+}
