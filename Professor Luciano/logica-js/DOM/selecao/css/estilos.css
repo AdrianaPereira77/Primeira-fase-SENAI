@@ -1,20 +1,102 @@
-    *{
+    * {
         margin: 0;
         padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
-    header{
-        background-color: #BBB
+    body {
+        background: #dfdddd;
+        /*cor total da página*/
+
     }
 
-    nav{
+    header {
+        background-color: #bbb;
+        /* padding-left: 20px;
+        margin-bottom: 20px; */
+        padding: 20px 25px;
+        /*exemplo q fica em cima e embaixo o mesmo valor e depois as duas laterais iguais*/
+        margin: 10px 0 0 0;
+        /*topo, lado, embaixo e esquerda (exemplo do relógio) (se eu colocar 0 aonde ta o 10px tira a margem de cima*/
+
+
+    }
+
+
+    a {
+        color: #fff;
+        /*para padronizar links*/
+    }
+
+    .container {
+        display: flex;
+    }
+
+
+    nav {
         background-color: #AAA;
+        padding: 15px 0;
+
+
     }
 
-    main{
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+
+        li {
+            a {
+                color: rgb(59, 158, 59);
+                text-decoration: none;
+                /*para tirar o sublinhado do home e etc*/
+                background: #807979;
+                /*para destacar o elemento*/
+                padding: 7px;
+                transition: all ease-in-out 0.5s;
+                /*dá o tempo do efeito*/
+
+                &:hover {
+                    /*mostra que quando passa o mouse sobre o link clicavel fica de outra cor*/
+                    color: #fff;
+                    background: rgb(59, 158, 59);
+
+
+                }
+
+            }
+        }
+
+    }
+
+
+
+    /* nav ul{
+        display: flex;                /*não está mais em uso*/
+    /* list-style: none;
+        justify-content: space-around;   
+    } 
+*/
+
+
+
+
+
+    main {
         background-color: #CCC;
+
+        section {
+            padding: 20px;
+
+            &#esportes {}
+        }
+
     }
 
-    footer{
+    footer {
         background-color: #888;
     }
+
+
+
+    /* o li no html bota um embaixo do outro os elementos*/
