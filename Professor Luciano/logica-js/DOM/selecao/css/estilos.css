@@ -30,6 +30,7 @@
 
     .container {
         display: flex;
+        flex-wrap: wrap;
     }
 
 
@@ -86,9 +87,38 @@
         background-color: #CCC;
 
         section {
+            
             padding: 20px;
+            h2,p{
+                margin-bottom: 20px;
+            }
 
-            &#esportes {}
+            p{
+                line-height: 1.5;
+            }
+
+            h3,h4{
+                margin-bottom: 15px;
+            }
+
+            article{
+                padding: 10px;
+            }
+
+            &#esportes {
+                p{
+                text-align: justify;
+            }
+            }
+
+            &#economia{
+                article{
+                    width: 300px;
+                }
+            }
+
+
+
         }
 
     }
