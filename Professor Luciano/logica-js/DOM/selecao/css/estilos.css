@@ -30,7 +30,7 @@
 
     .container {
         display: flex;
-        flex-wrap: wrap;
+       
     }
 
 
@@ -112,6 +112,9 @@
             }
 
             &#economia{
+                .container{
+                    flex-wrap: wrap;
+                }
                 article{
                     width: 300px;
                 }
@@ -125,8 +128,31 @@
 
     footer {
         background-color: #888;
+        padding: 15px 0;
+        color: #fff;
+        text-align: center;
     }
 
+/*arquivo serviços*/
 
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    &#show{
+        background: #0c55de;
+    }
+    &#hide{
+        background: #f00;
+    }
+}
 
     /* o li no html bota um embaixo do outro os elementos*/
